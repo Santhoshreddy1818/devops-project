@@ -1,14 +1,9 @@
-cat <<EOF > .gitignore
-# Logs
 *.log
-
-# Python cache
+*.pem
+.env
 __pycache__/
-
-# Terraform files (if using)
-*.tfstate
-.terraform/
-
-# System files
+node_modules/
 .DS_Store
-EOF
+terraform.tfstate
+terraform.tfstate.backup
+
